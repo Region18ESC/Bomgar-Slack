@@ -1,4 +1,7 @@
 # Bomgar-Slack
+
+![alt text](http://69.94.163.90/build-status/image/8 "Build Status")
+
 Simple page to relay messages from Bomgar to a Slack Channel
 
 The main purpose of this is to post a message in Slack for new support sessions. 
