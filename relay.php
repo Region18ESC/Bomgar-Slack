@@ -7,13 +7,13 @@ $type = $_POST['type'];
 
 
 // Looking for  Customer - Support Conference Memeber Added event from Bomgar
-if (($event = 'support_conference_member_added')  &&  ($type == 'customer'))
+if (($event = 'support_conference_member_added') && ($type == 'customer'))
 {
     $message = 'New Support Session for Customer - ' . $name ;
 // We created a custom Bomgar icon in Slack, you can change this to any icon avaiable in your Slack
     $icon = ":bomgar:";
 
-{
+    {
         $data = "payload=" . json_encode(array(
 // You can change the username below to the user you want to display in Slack
                 "username" => "Bomgar",
@@ -34,15 +34,15 @@ if (($event = 'support_conference_member_added')  &&  ($type == 'customer'))
 
         return $result;
     }
-    }
+}
 // Looking for Representative - Support Conference Memeber Added event from Bomgar
-if (($event = 'support_conference_member_added')  &&  ($type == 'representative'))
+if (($event = 'support_conference_member_added') && ($type == 'representative'))
 {
     $message = 'Support Session accepted by ' . $name;
 // We created a custom Bomgar icon in Slack, you can change this to any icon avaiable in your Slack
     $icon = ":bomgar:";
 
-{
+    {
         $data = "payload=" . json_encode(array(
 // You can change the username below to the user you want to display in Slack
                 "username" => "Bomgar",
