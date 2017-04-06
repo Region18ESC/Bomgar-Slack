@@ -35,10 +35,10 @@ test:
     allow_failures: true
   #php_cpd:
   #  standard: "PSR2"
-  #php_cs_fixer:
-  #  verbose: true
-  #  diff: true
-  #  level: "psr2"
+  php_cs_fixer:
+    verbose: true
+    diff: true
+    level: "psr2"
     
 complete:
   email:
