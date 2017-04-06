@@ -64,5 +64,3 @@ if (($event = 'support_conference_member_added') && ($type == 'representative'))
         return $result;
     }
 }
-
-?>
