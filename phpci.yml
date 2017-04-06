@@ -43,8 +43,8 @@ test:
 complete:
   email:
     committer: true
-    cc: ["dpiper@esc18.net"]
+    cc: ["DevOps@edlink18.net"]
 broken:
   email:
     committer: true
-    cc: ["dpiper@esc18.net"]
+    cc: ["DevOps@edlink18.net"]
